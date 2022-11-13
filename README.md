@@ -5,7 +5,7 @@
 Este proyecto es un cronometro para una carrera de N participantes en Java, el cual tiene la capacidad de iniciar y guardar en una lista los tiempos de cada corredor, además de poder ver los tiempos de cada corredor en una tabla.
 
 
-# Archivos
+## Archivos
 El programa cuenta con diferentes archivos, los cuales se pueden ejecutar en Visual Studio Code.
 
  - Cronometro: el cronometro es la clase MAIN e inicia las horas, minutos y segundos.
