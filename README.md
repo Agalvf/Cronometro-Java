@@ -1,23 +1,15 @@
-# Cronometro Java
+# Cronometro 
+
 ## Descripción
+
 Este proyecto es un cronometro para una carrera de N participantes en Java, el cual tiene la capacidad de iniciar y guardar en una lista los tiempos de cada corredor, además de poder ver los tiempos de cada corredor en una tabla.
 
-## Instalación
-Para poder ejecutar el proyecto se debe tener instalado Java en el equipo, además de tener instalado el IDE NetBeans.
 
-## Uso
-Para poder ejecutar el proyecto se debe abrir el IDE NetBeans y abrir el proyecto, luego se debe ejecutar el proyecto y se abrirá una ventana en la cual se podrá ver el cronometro y los botones para iniciar, guardar y ver los tiempos de cada corredor.
+# Archivos
+El programa cuenta con diferentes archivos, los cuales se pueden ejecutar en Visual Studio Code.
 
-## Créditos
-Este proyecto fue realizado por:
-- [Jorge Andrés Gómez](
+ - Cronometro: el cronometro es la clase MAIN e inicializadora de horas, minutos y segundos.
+ - Horas: Es la clase donde se almacena la hora actual y se le suma 1 cada vez que se despierta el hilo.
+ - Minutos: Es la clase donde se almacena los minutos actuales y se le suma 1 cada vez que se despierta el hilo.
+ - Segundos: Es la clase donde se almacena los segundos actuales, se tiene el metodo run que se encarga de dormir el hilo por 1 segundo y despertarlo para que se le sume 1 al segundo.
     
-
-[Image] [GitHub](github.com/JorgeAndresGomez)  [Image]
-
-### [Jorge Andrés Gómez](github.com/JorgeAndresGomez)
-
-Jorge Andrés Gómez has 1 repositories available. Follow their code on GitHub.
-
-  
-)
